@@ -1,0 +1,18 @@
+<HTML>
+	<BODY>
+	
+	<?php
+	$tab = array('Sami', 'Mohamed', 'Karim'); 
+
+$i=0;
+while($i < sizeof($tab)) {    // count() retourne le nombre d’éléments dans tab
+  echo $tab[$i].'<br>';
+  $i++;
+}
+
+
+		
+	?>
+	</table>
+	</BODY>
+</HTML>
